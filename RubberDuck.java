@@ -3,7 +3,7 @@ package headfirst.designpatterns.strategy;
 public class RubberDuck extends Duck {
  
 	public RubberDuck() {
-		flyBehavior = new FlyNoWay();
+		setflyBehavior(FlyNoWay);
 		//quackBehavior = new Squeak();
 		quackBehavior = () -> System.out.println("Squeak");
 	}
