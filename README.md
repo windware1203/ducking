@@ -1,3 +1,3 @@
 # duckinst
-Strategy Pattern
+**Strategy Pattern**
 ###### practice
